@@ -1,0 +1,18 @@
+
+
+ <div class="login">
+    <h1>Add Puppy</h1>
+    <form (ngSubmit)="onSubmit()">
+      <p><input type="text" class="form-control" id="name" [(ngModel)]="customer.breed" name="breed" placeholder="Breed" required></p>
+      <p><input type="text" class="form-control" id="email" [(ngModel)]="customer.colour" name="colour" placeholder="Colour" required></p>
+      <p> <input type="text" class="form-control" id="uname" [(ngModel)]="customer.age" name="age" placeholder="Age" required></p>
+      <p><input type="text" class="form-control" id="pass" [(ngModel)]="customer.imageUrl" name="imageUrl" placeholder="ImageUrl" required></p>
+      <p class="remember_me">
+       
+      </p>
+      <p class="submit"> <button type="submit" class="btn btn-success">Submit</button></p>
+    </form>
+  </div>
+
+  
+  
